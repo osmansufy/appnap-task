@@ -1,23 +1,40 @@
-import React from 'react'
+import CartSvgIcon from '../icons/CartSvgIcon'
+import HeartSvgIcon from '../icons/HeartSvgIcon'
+import ProfileSvgIcon from '../icons/ProfileSvgIcon'
 
-const NavbarItems = ({ navbarItemsStyle }: {
-    navbarItemsStyle: string
-}) => {
+const NavbarItems = () => {
     return (
         <ul
-            className={navbarItemsStyle}
+            className='navbar-items'
         >
             {/* profile icon */}
             <li>
-                <i className="fa fa-user-circle"></i>
+                <ProfileSvgIcon
+                    width={20}
+                    height={20}
+                />
             </li>
             {/* Love Icon */}
             <li>
-                <i className="fa fa-heart"></i>
+                <HeartSvgIcon
+                    width={20}
+                    height={20}
+                />
+                {/* notification badge */}
+                <span className='badge'>
+                    98+
+                </span>
             </li>
             {/* cart icon */}
             <li>
-                <i className="fa fa-shopping-cart"></i>
+                <CartSvgIcon
+                    width={20}
+                    height={20}
+                />
+                {/* notification badge */}
+                <span className='badge'>
+                    99+
+                </span>
             </li>
         </ul>
     )

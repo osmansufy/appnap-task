@@ -5,70 +5,70 @@
     "name":"Hp Pavilion 15",
     "price": 50000,
     "description":"Hp Pavilion 15 is a 15.6 inch laptop with 8GB RAM and 1TB HDD",
-    "image":"https://m.media-amazon.com/images/I/71f3rYVW52L._AC_UY218_.jpg"
+    "image":"/images/hp.jpg"
 },
 {
     "id":2,
     "name":"Dell Inspiron 15",
     "price": 60000,
     "description":"Dell Inspiron 15 is a 15.6 inch laptop with 8GB RAM and 1TB HDD",
-    "image":"https://m.media-amazon.com/images/I/71f3rYVW52L._AC_UY218_.jpg"
+    "image":"/images/hp.jpg"
 },
 {
     "id":3,
     "name":"Lenovo Ideapad 15",
     "price": 40000,
     "description":"Lenovo Ideapad 15 is a 15.6 inch laptop with 8GB RAM and 1TB HDD",
-    "image":"https://m.media-amazon.com/images/I/71f3rYVW52L._AC_UY218_.jpg"
+    "image":"/images/hp.jpg"
 },
 {
     "id":4,
     "name":"Asus Vivobook 15",
     "price": 45000,
     "description":"Asus Vivobook 15 is a 15.6 inch laptop with 8GB RAM and 1TB HDD",
-    "image":"https://m.media-amazon.com/images/I/71f3rYVW52L._AC_UY218_.jpg"
+    "image":"/images/hp.jpg"
 },
 {
     "id":5,
     "name":"Acer Aspire 15",
     "price": 55000,
     "description":"Acer Aspire 15 is a 15.6 inch laptop with 8GB RAM and 1TB HDD",
-    "image":"https://m.media-amazon.com/images/I/71f3rYVW52L._AC_UY218_.jpg"
+    "image":"/images/hp.jpg"
 },
 {
     "id":6,
     "name":"Apple Macbook Air",
     "price": 80000,
     "description":"Apple Macbook Air is a 15.6 inch laptop with 8GB RAM and 1TB HDD",
-    "image":"https://m.media-amazon.com/images/I/71f3rYVW52L._AC_UY218_.jpg"
+    "image":"/images/hp.jpg"
 },
 {
     "id":7,
     "name":"Apple Macbook Pro",
     "price": 100000,
     "description":"Apple Macbook Pro is a 15.6 inch laptop with 8GB RAM and 1TB HDD",
-    "image":"https://m.media-amazon.com/images/I/71f3rYVW52L._AC_UY218_.jpg"
+    "image":"/images/hp.jpg"
 },
 {
     "id":8,
     "name":"Microsoft Surface Pro",
     "price": 90000,
     "description":"Microsoft Surface Pro is a 15.6 inch laptop with 8GB RAM and 1TB HDD",
-    "image":"https://m.media-amazon.com/images/I/71f3rYVW52L._AC_UY218_.jpg"
+    "image":"/images/hp.jpg"
 },
 {
     "id":9,
     "name":"Microsoft Surface Book",
     "price": 110000,
     "description":"Microsoft Surface Book is a 15.6 inch laptop with 8GB RAM and 1TB HDD",
-    "image":"https://m.media-amazon.com/images/I/71f3rYVW52L._AC_UY218_.jpg"
+    "image":"/images/hp.jpg"
 },
 {
     "id":10,
     "name":"Microsoft Surface Laptop",
     "price": 95000,
     "description":"Microsoft Surface Laptop is a 15.6 inch laptop with 8GB RAM and 1TB HDD",
-    "image":"https://m.media-amazon.com/images/I/71f3rYVW52L._AC_UY218_.jpg"
+    "image":"/images/hp.jpg"
 }
     
 ]

@@ -1,0 +1,106 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .search-box {
+      form {
+        position: relative;
+        margin: 0 auto;
+        width: 400px;
+        input[type="text"] {
+          width: 100%;
+          padding: 0.5rem;
+          border-radius: 50px;
+          border: 1px solid #ccc;
+        }
+        .search-icon {
+          position: absolute;
+          top: 50%;
+          right: 1rem;
+          transform: translateY(-50%);
+          cursor: pointer;
+        }
+        .search-results {
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 100%;
+          background-color: #fff;
+          padding: 1rem;
+          border-radius: 5px;
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+          z-index: 1;
+          .search-result-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+            cursor: pointer;
+            padding: 0.5rem;
+            &:hover {
+              color: #ff6b6b;
+              background-color: #f1f3f6;
+            }
+            gap: 1rem;
+            .search-result-info {
+              flex: 1;
+              h3 {
+                font-size: 0.8rem;
+                margin-bottom: 0.25rem;
+              }
+              p {
+                font-size: 0.8rem;
+                color: green;
+              }
+            }
+          }
+          .search-result-btn {
+            cursor: pointer;
+            color: #97d49d;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.8rem;
+            font-weight: 700;
+            max-width: 320px;
+          }
+        }
+      }
+    }
+    .navbar-items {
+      display: flex;
+      align-items: center;
+      li {
+        margin: 0 0.5rem;
+        cursor: pointer;
+        list-style: none;
+        border: 1px solid aliceblue;
+        border-radius: 50%;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        position: relative;
+        .badge {
+          position: absolute;
+          top: 0;
+          right: -10px;
+          background-color: #97d49d;
+          color: #fff;
+          border-radius: 50%;
+          padding: 0.25rem;
+          font-size: 0.5rem;
+        }
+        &:hover {
+          color: #ff6b6b;
+        }
+      }
+    }
+  }
+}
